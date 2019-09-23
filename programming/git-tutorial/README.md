@@ -4,61 +4,61 @@
 Git is a distributed version-control system for tracking changes in source code during software development. It is designed for coordinating work among programmers, but it can be used to track changes in any set of files. Its goals include speed, data integrity, and support for distributed, non-linear workflows.
 
 ### A little bit about the glossary
-### Branch : 
+### Branch  
 Branches represent specific versions of a repository that “branch out” from your main project. Branches allow you to keep track of experimental changes you make to repositories and revert to older versions.
 
-### Commit :
+### Commit 
 A commit represents a specific point in your project’s history. Use the commit command in conjunction with the git add command to let git know which changes you wish to save to the local repository. Note that commits are not automatically sent to the remote server.
 
-### Checkout :
+### Checkout 
 Use the git checkout command to switch between branches. Just enter git checkout followed by the name of the branch you wish to move to, or enter git checkout master to return to the master branch. Mind your commits as you switch between branches.
 
-### Fetch :
+### Fetch 
 The git fetch command copies and downloads all of a branch’s files to your device. Use it to save the latest changes to your repositories. It’s possible to fetch multiple branches simultaneously.
 
-### Fork :
+### Fork 
 A fork is a copy of a repository. Take advantage of “forking” to experiment with changes without affecting your main project.
 
-### Head :
+### Head 
 The commit at the tip of a branch is called the head. It represents the most current commit of the repository you’re currently working in.
 
-### Index :
+### Index 
 Whenever you add, delete or alter a file, it remains in the index until you are ready to commit the changes. Think of it as the staging area for Git. Use the git status command to see the contents of your index. Changes highlighted in green are ready to be committed while those in red still need to be added to staging.
 
-### Master :
+### Master 
 The master is the primary branch of all your repositories. It should include the most recent changes and commits.
 
-### Merge :
+### Merge 
 Use the git merge command in conjunction with pull requests to add changes from one branch to another.
 
-### Origin :
+### Origin 
 The origin refers to the default version of a repository. Origin also serves as a system alias for communicating with the master branch. Use the command git push origin master to push local changes to the master branch.
 
-### Pull :
+### Pull 
 Pull requests represent suggestions for changes to the master branch. If you’re working with a team, you can create pull requests to tell the repository maintainer to review the changes and merge them upstream. The git pull command is used to add changes to the master branch.
 
-### Push :
+### Push 
 The git push command is used to update remote branches with the latest changes you’ve committed.
 
-### Rebase :
+### Rebase 
 The git rebase command lets you split, move or get rid of commits. It can also be used to combine two divergent branches.
 
-### Remote :
+### Remote 
 A remote is a clone of a branch. Remotes communicate upstream with their origin branch and other remotes within the repository.
 
-### Repository :
+### Repository 
 Git repositories hold all of your project’s files including branches, tags and commits.
 
-### Stash :
+### Stash 
 The git stash command removes changes from your index and “stashes” them away for later. It’s useful if you wish to pause what you’re doing and work on something else for a while. You can’t stash more than one set of changes at a time.
 
-### Tags :
+### Tags 
 Tags provide a way to keep track of important commits. Lightweight tags simply serve as pointers while annotated tags get stored as full objects.
 
-### Upstream :
+### Upstream 
 In the context of Git, upstream refers to where you push your changes, which is typically the master branch.
 
-### The Commands :
+### The Commands 
 ### Configuring Git
 - Set the username:
 
