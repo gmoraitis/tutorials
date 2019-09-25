@@ -1,21 +1,23 @@
-## Sass
+## Description
 
-We can use Sass, a stylesheet preprocessor to help us maintain large and complex css files.
+Sass is used as a stylesheet preprocessor to help us maintain large and complex css files.
 
-#### Setup from command line
+#### Sass installation
 
 Install Sass using npm by running:
+
 ```
 npm install -g sass
 ```
-then you'll be able to run the sass executable to compile .sass and .scss files to .css files. For example:
+
+#### Sass usage
+
+Then sass executable is used to compile .sass and .scss files to .css files:
+
 ```
-sass source/stylesheets/index.scss build/stylesheets/index.css
+sass --no-source-map style.scss style.css
 ```
-Link the new generated css file from the build folder in your index.html file.
 
-Here is the [original documentation](https://sass-lang.com/install) for more information.
+## Usage
 
-
-
-
+Open index.html with any browser or serve it with a web-server.
